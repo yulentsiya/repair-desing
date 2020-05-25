@@ -16,4 +16,3 @@ gulp.task('browser-sync', function() {
   gulp.watch("app/*.html").on('change', browserSync.reload);
 });
 
-

@@ -385,6 +385,8 @@ template {
   .hero__text {
     font-size: 22px;
     max-width: 500px; }
+  .hero__button {
+    margin-right: 20px; }
   .hero__instagram {
     position: absolute;
     left: 0;

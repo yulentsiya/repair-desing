@@ -18,9 +18,10 @@
     background-color: rgba($dark, 0.7)
   &__content
     position: relative
-    max-width: 670px
+    max-width: 47.85rem
+    margin-left: 4.28rem
   &__text
-    font-size: 22px
+    font-size: 1.57rem
     max-width: 500px
   &__button
     margin-right: 20px
@@ -37,12 +38,16 @@
     align-items: center
     left: 0
     bottom: 0
-    min-width: 247px
-    min-height: 97px
+    min-width: 17.6rem
+    min-height: 6.92rem
     background-color: $dark
     text-transform: uppercase
     text-decoration: none
     color: $light
+    font-family: Yeseva One
+    &:hover
+      transition: box-shadow 0.3s
+      text-shadow: #f3d8ad 0 0 2px;
     &::after
       content: ''
       background: url('../img/arrow-down.svg') no-repeat center
@@ -64,17 +69,21 @@
     color: $primary
     transform: rotate(90deg)
     line-height: 0.8
+    &:hover
+      transition: box-shadow 0.3s
+      text-shadow: #f3d8ad 0 0 2px;
     &::after
       content: ''
       width: 50px
       height: 1px
       background-color: $primary
       margin-left: 8px
+  
 .title
   margin: 0
   font-family: 'Yeseva One', cursive;
   text-transform: uppercase
-  font-size: 40px
+  font-size: 2.857rem
   &--primary
     color: $primary
 

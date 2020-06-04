@@ -68,6 +68,9 @@
   justify-content: center
   align-items: center
   background-color: $dark
+  &:hover
+  transition: box-shadow 0.3s
+  text-shadow: #f3d8ad 0 0 2px;
   &__link
     display: flex
     align-items: center
@@ -77,9 +80,6 @@
     transform: rotate(90deg)
     line-height: 0.8
     font-size: 1.1rem
-    &:hover
-      transition: box-shadow 0.3s
-      text-shadow: #f3d8ad 0 0 2px;
     &::after
       content: ''
       width: 50px
@@ -88,7 +88,6 @@
       margin-left: 8px
   
 .title
-  margin: 0
   font-family: 'Yeseva One', cursive;
   text-transform: uppercase
   font-size: 2.857rem

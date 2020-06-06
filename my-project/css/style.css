@@ -653,14 +653,7 @@ body {
   .modal__button {
     align-self: flex-end; }
 
-@media screen and (max-width: 1265px) {
-  html {
-    font-size: 12px; }
-  .nav__item {
-    margin-right: 1rem;
-    font-size: 12px; } }
-
-@media screen and (max-width: 1265px) {
+@media screen and (max-width: 1300px) {
   html {
     font-size: 12px; }
   .nav__item {

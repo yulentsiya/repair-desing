@@ -597,9 +597,13 @@ body {
   padding: 1.214rem 2.6rem; }
 
 .section-desing-text {
-  font-family: 'FuturaBookC';
+  display: inline-block;
+  font-family: FuturaBookC;
   font-size: 20px;
-  text-align: center; }
+  text-align: center;
+  color: #363636;
+  max-width: 765px;
+  text-transform: none; }
 
 .modal {
   opacity: 0;

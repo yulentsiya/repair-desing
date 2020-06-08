@@ -573,6 +573,8 @@ body {
 
 .card__title {
   font-family: 'Yeseva One', cursive;
+  font-style: normal;
+  font-weight: normal;
   font-size: 1.29rem;
   margin-top: 0;
   margin-bottom: 0.7rem; }
@@ -591,6 +593,8 @@ body {
   bottom: -1.79rem;
   font-size: 1.29rem;
   font-family: 'Yeseva One', cursive;
+  font-style: normal;
+  font-weight: normal;
   text-transform: uppercase;
   background-color: #E3B873;
   color: #ffffff;
@@ -599,7 +603,9 @@ body {
 .section-desing-text {
   display: inline-block;
   font-family: FuturaBookC;
-  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.42rem;
   text-align: center;
   color: #363636;
   max-width: 765px;

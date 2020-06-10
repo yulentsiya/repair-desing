@@ -1,0 +1,49 @@
+.row
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  width: 100%
+.col-30
+  display: flex
+  justify-content: space-between
+  width: 25%
+
+.col-70
+  display: flex
+  justify-content: space-between
+  width: 60%
+  flex-direction: column
+.number-slider
+  display: flex
+  justify-content: space-around
+  flex-direction: row
+  flex: wrap
+  width: 100%
+.swiper-slide__text-step
+  width: 33%
+
+.swiper
+  &-pagination
+    &-bullet
+      background-color: rgba($light, 0.3)
+      &-active
+        background-color: $light
+  &-button
+    &-prev, &-next
+      bottom: 0
+      top: auto
+      background-size: 42px
+      width:  42px
+      height: 14px
+      &::after
+        display: none 
+    &-prev
+      left: 0
+      background: url('../img/arrow-prev.svg') no-repeat center
+    &-next
+      background: url('../img/arrow-next.svg') no-repeat center
+
+
+.swiper-container-horizontal>.swiper-pagination-bullets
+  width: auto
+  bottom: -2px

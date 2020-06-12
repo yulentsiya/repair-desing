@@ -70,4 +70,6 @@ $(document).ready(function () {
   });
   
 
+  new WOW().init(); // CSS АНИМАЦИЯ 
+
 });

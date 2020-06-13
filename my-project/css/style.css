@@ -1233,6 +1233,10 @@ body {
       margin-top: 0; } }
 
 @media screen and (max-width: 700px) {
+  .control__text {
+    padding: 0 2rem; }
+  .control__form {
+    padding: 0 2rem; }
   .section-title__image {
     margin-top: 1.4rem; }
     .section-title__image::before, .section-title__image::after {

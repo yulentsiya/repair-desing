@@ -328,16 +328,16 @@ template {
     cursor: pointer; }
   .button--primary {
     background-color: #E3B873;
-    color: #ffffff;
+    color: #fff;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     transition: box-shadow 0.3s; }
     .button--primary:hover {
       box-shadow: none; }
   .button--outline {
     padding: 20px 45px;
-    border: 1px solid #ffffff;
+    border: 1px solid #fff;
     background-color: transparent;
-    color: #ffffff;
+    color: #fff;
     box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
     transition: box-shadow 0.3s; }
     .button--outline:hover {
@@ -353,16 +353,16 @@ template {
   border: none;
   border-bottom: 1px solid rgba(54, 54, 54, 0.3);
   font-size: 1.285rem;
-  color: #ffffff;
+  color: #fff;
   padding: 0.5rem 0; }
   .input--light::-moz-placeholder {
-    color: #ffffff; }
+    color: #fff; }
   .input--light:-ms-input-placeholder {
-    color: #ffffff; }
+    color: #fff; }
   .input--light::-ms-input-placeholder {
-    color: #ffffff; }
+    color: #fff; }
   .input--light::placeholder {
-    color: #ffffff; }
+    color: #fff; }
 
 .policy__checkbox {
   opacity: 0;
@@ -422,13 +422,13 @@ body {
   padding: 4.28rem 0; }
   .section--dark {
     background-color: #131313;
-    color: #ffffff; }
+    color: #fff; }
   .section-title {
     text-align: center; }
     .section-title--left {
       text-align: left; }
     .section-title--light {
-      color: #ffffff; }
+      color: #fff; }
     .section-title__heading {
       text-transform: uppercase;
       font-family: 'Yeseva One', cursive;
@@ -481,7 +481,7 @@ body {
   text-transform: uppercase; }
 
 .nav__item {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   margin-right: 2.85rem;
@@ -504,7 +504,7 @@ body {
   padding-top: 100px;
   background: #131313 url("../img/hero-bg.jpg") no-repeat center/cover;
   height: 100vh;
-  color: #ffffff; }
+  color: #fff; }
   .hero::before {
     content: '';
     position: absolute;
@@ -557,7 +557,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 0.85rem;
-    color: #ffffff;
+    color: #fff;
     font-family: Yeseva One; }
     .hero__scroll-down:hover {
       transition: box-shadow 0.3s;
@@ -628,7 +628,7 @@ body {
 .swiper-pagination-bullet {
   background-color: rgba(255, 255, 255, 0.3); }
   .swiper-pagination-bullet-active {
-    background-color: #ffffff; }
+    background-color: #fff; }
 
 .swiper-button-prev, .swiper-button-next {
   bottom: 0;
@@ -680,7 +680,7 @@ body {
 .swiper-pagination-bullet {
   background-color: rgba(255, 255, 255, 0.3); }
   .swiper-pagination-bullet-active {
-    background-color: #ffffff; }
+    background-color: #fff; }
 
 .swiper-button-prev, .swiper-button-next {
   bottom: 0;
@@ -767,6 +767,83 @@ body {
   position: relative;
   margin: auto; }
 
+.team {
+  position: relative; }
+  .team__row {
+    max-width: 1028px;
+    margin: auto;
+    margin-top: 5.8rem; }
+  .team__section-title {
+    margin-top: -32.14rem; }
+  .team__title-description {
+    max-width: 32rem;
+    margin: auto; }
+  .team__card {
+    position: relative; }
+  .team__card-icon {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background: #E3B873;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .team__card-img {
+    max-width: 19.459rem;
+    height: 357px; }
+    .team__card-img img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover; }
+  .team__card-text {
+    position: relative;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    width: 95%;
+    max-width: 16.64rem;
+    margin-top: -5.8rem;
+    text-align: center;
+    padding: 0;
+    padding-top: 1.57rem; }
+  .team__card-title {
+    font-size: 18px; }
+  .team__card-position {
+    color: #959595;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    margin-top: -0.33rem; }
+  .team__card-experience {
+    font-family: 'Yeseva One', cursive;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #E3B873;
+    padding: 0.9rem 0 1rem 0;
+    margin-top: 1.75rem; }
+  .team__text {
+    max-width: 40.785rem;
+    margin: auto;
+    margin-top: 3.5rem;
+    text-align: center;
+    font-size: 1.428rem;
+    line-height: 2.428rem;
+    color: #363636; }
+    .team__text::before {
+      content: '';
+      display: block;
+      margin: auto;
+      margin-bottom: 0.8rem;
+      width: 55px;
+      height: 2px;
+      background: #E3B873;
+      border-radius: 30px; }
+
 .types__section-title {
   margin-bottom: 2rem; }
 
@@ -805,7 +882,7 @@ body {
   font-weight: normal;
   text-transform: uppercase;
   background-color: #E3B873;
-  color: #ffffff;
+  color: #fff;
   padding: 1.214rem 2.6rem; }
 
 .section-desing-text {
@@ -887,7 +964,7 @@ body {
     max-width: 36.36rem;
     background: #131313 url("../img/bg-lines.svg") no-repeat center;
     padding: 2.357rem 3.5rem 1.928rem;
-    color: #ffffff; }
+    color: #fff; }
   .modal__close {
     position: absolute;
     right: 0;
@@ -949,7 +1026,7 @@ body {
 @media screen and (max-width: 570px) {
   .contacts__phone {
     margin-right: 0;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none; }
   .contacts__button {
     display: none; }

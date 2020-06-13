@@ -17,14 +17,39 @@
 
 $(document).ready(function () {
   var modal = $('.modal'),
-      modalBtn = $('[data-toggle=modal]'),
-      closeBtn = $('.modal__close');
+    modalAnswer = $('.modal-answer'),
+    modalBtn = $('[data-toggle=modal]'),
+    closeBtn = $('.modal__close'),
+    closeBtnAnswer = $('.modal-answer__close');
 
   modalBtn.on('click', function () {
-    modal.toggleClass('modal--visible');
+    modal.toggleClass('modal_visible');
   });
+
   closeBtn.on('click', function () {
-    modal.toggleClass('modal--visible');
+    modal.toggleClass('modal_visible');
+  });
+  closeBtnAnswer.on('click', function () {
+    modalAnswer.toggleClass('modal-answer_visible');
+  });
+  // закрытие модального окна нажатием на кнопку Esc
+  $(document).keydown(function (e) {
+    if (e.code == 'Escape') {
+      modal.removeClass('modal_visible');
+      modalAnswer.removeClass('modal-answer_visible');
+    };
+  });
+  // закрытие модального окна при нажатие на любое место вне его
+  $(document).on('click', function (e) {
+    if (modal.is(e.target)) {
+      modal.removeClass('modal_visible');
+    };
+  });
+  // закрытие модального окна при нажатие на любое место вне его
+  $(document).on('click', function (e) {
+    if (modalAnswer.is(e.target)) {
+      modalAnswer.removeClass('modal-answer_visible');
+    };
   });
 
 

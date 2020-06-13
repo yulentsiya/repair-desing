@@ -1138,6 +1138,18 @@ body {
     margin-right: auto; } }
 
 @media screen and (max-width: 990px) {
+  .section-title--left {
+    display: inline-block;
+    text-align: left; }
+  .section-title__word {
+    text-align: left;
+    display: inline-block; }
+  .img-project-media {
+    display: inline;
+    max-width: 100%;
+    margin-top: 3rem; }
+  .img-project {
+    display: none; }
   .section-title_left {
     text-align: center; }
   .section-title__heading {
@@ -1277,8 +1289,12 @@ body {
       .control__policy-label {
         font-size: 1.33rem;
         justify-content: flex-start; }
-  .ymap-contanier {
-    height: 28rem; } }
+  .img-project-media {
+    display: inline;
+    max-width: 100%;
+    margin-top: 3rem; }
+  .img-project {
+    display: none; } }
 
 @media screen and (max-width: 570px) {
   .section-title__text {

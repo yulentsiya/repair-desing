@@ -672,8 +672,7 @@ body {
 .row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%; }
+  flex-wrap: wrap; }
 
 .col-30 {
   display: flex;

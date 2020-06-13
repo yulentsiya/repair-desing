@@ -16,6 +16,16 @@ body
   &--dark
     background-color: $dark
     color: $light
+  .section
+  padding: 50px 0
+  &_curlydark
+    background: $dark url('../img/bg-lines-light.png') no-repeat center  /cover
+    color: $light
+  &_curlylight
+    background: $light url('../img/bg-lines-dark.png') no-repeat center /cover
+  &-title
+    text-align: center      
+    // color: $dark-title 
   &-title
     text-align: center
     &--left
@@ -52,3 +62,20 @@ body
         height: 2px
         background-color: $primary
         margin: 0 10px
+    &__description
+      margin: auto
+      margin-top: 1.27rem
+      font-size: 1.425rem
+      line-height: 135.84%
+      max-width: 52.93rem
+      &_limit
+        max-width: 25.71rem
+
+.xs-visible
+  display: none
+
+
+
+
+
+ 

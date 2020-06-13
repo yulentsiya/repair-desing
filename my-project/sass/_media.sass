@@ -1,37 +1,178 @@
-@media screen and ( max-width: 1300px )
+@media screen and (max-width: 1240px)
   html
     font-size: 12px
   .nav
     &__item
       margin-right: 1rem
-  
-@media screen and ( max-width: 992px )
+  .card
+    &__text
+      margin-left: 0
+  .team
+    &__card-text
+      margin-left: auto
+      margin-right: auto
+@media screen and (max-width: 990px)  
+  .section
+    &-title
+      &_left
+        text-align: center
+      &__heading
+        font-size: 1.83rem
+      &__description
+        font-size: 1.25rem
+        max-width: 25.5rem
+      &__word  
+        justify-content: center    
+        &::after
+          display: none
+      &__text
+        margin: 1rem auto
+  .header
+    &__contanier
+      width: 90%
   .nav
-    display: none
+    &__item
+      display: none
   .hero
     &__instagram
       display: none
     &__content
       margin-left: 0
-
-@media screen and ( max-width: 760px )
-  .img-project
-    display: none
-  .img-project-media
-    margin-top: 2.85rem
-    display: inline
-@media screen and ( max-width: 760px )
   .row
     flex-direction: column
     align-items: center
   .types
     &__card
-      margin-bottom: 5rem
+      margin-bottom: 6rem
   .card
     &__text
-      margin-left: 0
+      margin-top: -11.3rem  
+  .team
+    &__row
+      margin-left: 35px  
+      margin-top: 6.67rem 
+    &__title-description
+      max-width: 100%   
+    &__card
+      margin-bottom: 10rem  
+      &_mb-0
+        margin-bottom: 0    
+    &__card-text     
+      max-width: 19.416rem 
+      margin-top: -6.68rem 
+    &__card-img
+      // width: 304px  
+      max-width: 100% 
+    &__text
+      display: none
+  .xs-hidden
+    display: none
+  .xs-visible 
+    display: inline-block
+  .col-45, .col-55 
+    width: 100% 
+  .col-30
+    max-width: 100%
+  .projects
+    &__swiper
+      &-contanier
+        &_mt-15
+          margin-top: 0
+      &-pagination
+        left: 50% !important
+        transform: translateX(-50%) !important  
+      &-button        
+        &-prev
+          left: 20%
+        &-next
+          left: auto !important
+          right: 20%
+  .swiper  
+    &-slide   
+      justify-content: center   
+      margin-bottom: 1rem                      
+      &__heading
+        font-size: 1.16rem
+      &_value
+        font-size: 1.16rem          
+  .mobile-order-top
+    order: -1  
+  .clients
+    display: none
+  .team
+    background: $dark
+    &__section-title    
+      margin-top: 0
+  
+  .footer
+    background: $dark
+    &__wrap
+      margin-top: 0
 
-@media screen and ( max-width: 570px )
+@media screen and (max-width: 700px)
+  .section
+    &-title
+      &__image      
+        margin-top: 1.4rem
+        &::before, &::after
+          width: 31px
+          height: 1px          
+          margin: 0 8px
+  .control
+    padding-bottom: 0
+    background: $dark
+    color: $light
+    &__video      
+      max-width: 58.357rem
+      min-height: 207px 
+      margin-top: 3.5rem
+      margin-bottom: 2.333rem  
+    &__text
+      color: $light
+      line-height: 169.8%
+      font-size: 1.167rem
+      margin-bottom: 2.5rem
+      &::before
+        margin-bottom: 1.2rem
+    &__form
+      position: relative
+      flex-direction: column
+    &__input-group    
+      &:nth-of-type(2)
+        padding-left: 0
+    &__input
+      font-size: 1.5rem
+      line-height: 138.72%
+      border-bottom: 1px solid rgba($light, 0.15)
+      margin-bottom: 4.8rem
+      margin-top: -5px
+      &::placeholder
+        color: $light              
+    &__label
+      font-size: 1.25rem
+    &__button 
+      width: 100%
+      order: 3
+      margin-bottom: -2rem    
+      &:hover
+        background: $primary
+        color: $light      
+    &__policy      
+      margin-top: -3.5rem
+      margin-bottom: 5.2rem
+      &-label
+        font-size: 1.33rem
+        justify-content: flex-start
+  .ymap-contanier  
+    height: 28rem
+@media screen and (max-width: 570px)
+  .section
+    &-title
+      &__text
+        max-width: 25.42rem
+        line-height: 158.48%
+        font-size: 1.167rem
+        margin-top: 2rem
   .contacts
     &__phone
       margin-right: 0
@@ -44,45 +185,95 @@
   .hero
     &__scroll-down
       display: none
-    &__content
-      max-width: 22.86rem
+    // &__content
+    //   max-width: 22.86rem
+    &__title
+      font-size: 1.92rem
+      line-height: 132.83%
+      max-width: 22.86rem      
     &__text
-      font-size: 1.29rem
-      margin-bottom: 2.28rem
+      font-size: 1.5rem
+      margin-bottom: 3rem
+      max-width: 26.75rem      
     &__button
       display: block
       min-width: 22.86rem
       margin-bottom: 1.85rem
-@media screen and ( max-width: 570px )
-  .img-project
-    display: none
-  .section
-    margin-left: 0
-    &-title
-      margin-left: 0
-      &__word
-        &::after
-          display: none
+      margin-right: 0
+      width: 100%
+      font-size: 1.08rem
   .swiper
-    margin-left: 0
-    &-slide
-      min-width: 24.35rem
-      margin-left: 0
+    &-slide 
       &__text
-        font-size: 1.29rem
-        margin-bottom: 2.28rem
-        margin-left: 0
-@media screen and ( max-height: 520px )
-  .swiper
-    &-slide
-   
+        flex-basis: 50%   
+  .footer
+    &__wrap
+      background: $dark
+      padding: 0  
+      margin-bottom: 3.9rem
+    &__title
+      font-size: 1.667rem
+      margin-bottom: 4.5rem
+    &__form
+      flex-direction: column   
+    &__label
+      font-size: 1.25rem
+    &__input
+      font-size: 1.5rem 
+      &-group
+        margin-bottom: 5rem
+        &_full-width
+          margin-bottom: 0.9rem  
+    &__policy
+      margin-bottom: 5.7rem 
+    &__button
+      width: 100%
+      font-size: 1.25rem
+    &__menu
+      display: none
+    &__contact
+      font-size: 1.5rem
+      line-height: 138.6%
+      margin-bottom: 1.8rem
+      img
+        width: 100%
+    &__link
+      width: 39px
+      height: 39px
+      margin: 0 10px
+      padding: 0    
+ 
+  .policy
+    &__label
+      font-size: 1.33rem
+      &_center
+        justify-content: flex-start
 
-@media screen and ( max-height: 520px )
+@media screen and (max-height: 520px) 
   .hero
     &__scroll-down
       display: none
-  
-  
 
-  
-  
+@media screen and ( min-width: 991px )
+  .design
+    background: $light
+    &__section-title
+      color: $black
+    &__row
+      flex-direction: row
+      align-items: flex-start
+      justify-content: space-between
+    &__card
+      flex-basis: 32%
+    &__pricetag
+      padding: 1.214rem 0 1.214rem 2.2rem
+
+
+
+
+
+
+
+
+    
+ 

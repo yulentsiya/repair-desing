@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=6710d42e-973D-42c1-9cc1-d973f47cc757&lang=ru_RU" type="text/javascript"></script>
   <title>Document</title>
 </head>
 <body>
@@ -566,6 +567,22 @@
 
       </div>
       <!-- /.footer-wrap -->
+
+      <div class="footer__info">
+        <strong class="footer__contact">Ростов на дону, Торговый центр Plaza Прямой телефон +7&nbsp;(999) 768 32 99</strong>
+        <div class="footer__links">
+          <a class="footer__link"><img src="./img/email.svg" alt="email"></a>
+          <a class="footer__link"><img src="./img/instagram.svg" alt="instagram"></a>
+        </div>
+        <!-- <div class="map footer__map" id="map"></div> -->
+        <div class="ymap-container">
+          <div class="loader loader-default"></div>
+          <div class="footer__map" id="map"></div>
+      </div>
+      <!-- .ymap-container -->
+          <!-- /.map -->
+      </div>
+
     </div>
     <!--contenier-->
     <div class="footer__menu">
@@ -633,7 +650,11 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
   <script src="js/wow.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.mask.min.js"></script>
   <script src="js/main.js"></script>
+  
+
   
 </body>
 </html>

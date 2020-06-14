@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'Futura Book';
   src: url("../fonts/futura/FuturaBookC.woff") format("woff"), url("../fonts/futura/FuturaBookC.woff2") format("woff");
@@ -384,6 +385,13 @@ template {
     margin-right: 0.64rem; }
   .policy__label--center {
     justify-content: center; }
+
+label.invalid {
+  padding-top: 0.5rem;
+  color: tomato; }
+
+input.invalid {
+  border-bottom: 1px solid tomato; }
 
 .contanier {
   max-width: 1256px;
@@ -1028,7 +1036,53 @@ body {
   .footer__menu {
     background-color: #131313;
     padding: 4.285rem 0; }
+  .footer__info {
+    display: flex;
+    flex-direction: column;
+    align-content: center; }
+  .footer__contact {
+    max-width: 39rem;
+    margin: auto;
+    margin-bottom: 1.857rem;
+    margin-top: 4rem;
+    font-family: 'Yeseva One', cursive;
+    font-weight: normal;
+    font-size: 1.428rem;
+    line-height: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873; }
+  .footer__links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.09rem; }
+  .footer__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    margin: 0 8px;
+    padding: 7px;
+    background: #E3B873;
+    border-radius: 50%; }
+  .footer__map {
+    margin-bottom: 4rem;
+    min-height: 465px; }
+  .footer__map {
+    width: 100%;
+    height: 100%; }
 
+.ymap-container {
+  position: relative;
+  background: transparent url("../img/map-mask.png") no-repeat center;
+  width: 100%;
+  max-width: 66.07rem;
+  height: 33.214rem;
+  margin: auto;
+  margin-bottom: 4rem; }
+
+/* Индикатор загрузки, который показывается до загрузки карты */
 .modal,
 .modal-answer {
   opacity: 0;
